@@ -8,10 +8,10 @@ function checkExam(array1, array2) {
        if (array1[i] === array2[i]){
         score+= 4
          console.log(score + "went up by 4")
-      }else if (array1[i] !== array2[i] && array2[i] !== ''){
+      }else if (array1[i] !== array2[i] && array2[i] !== ''){  //if array one does not equal array two and array two is empty
         score-= 1
          console.log(score + "went down by 1")
-      }else{
+      }else{   //all other options
         score+= 0
         console.log(score + "did not change")
       }
